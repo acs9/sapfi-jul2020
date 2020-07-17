@@ -39,11 +39,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "SAPFI-CBRE Webinar",
+        "meta_descr": "Restarting the Engine – Way Forward for Shared Accommodation",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/seminar-22july2020-835x470.jpg"
       },
       "components": [
         {
