@@ -1,0 +1,147 @@
+{
+  "settings": {
+    "name": "SAPFI WhatsApp Pages",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 6,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "& when not (@fullWidth)": {
+                "width": "~\"@{videoSize}%\"",
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "img": {
+              "object-fit": "contain"
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"70\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/seminar-22july2020-835x470.jpg\" layout=\"responsive\" width=\"731.9574468085107\" height=\"412\" alt=\"CBRE\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"https://cbre.zoom.us/webinar/register/WN_if1hB5s9TESkoYFV6fqikQ\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/seminar-22july2020-835x470.jpg\" alt=\"CBRE\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    Create awesome and FAST websites!\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s502Gn6Rzo",
+          "_anchor": "image2-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\">Greetings from the Student Accommodation Providers Forum of India (SAPFI) and CBRE, the world’s largest real estate consulting firm.\n</h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Amid the COVID-19 pandemic, alternative real estate asset classes including student housing and co-living segments have been disrupted to varying degrees. The outbreak in India has severely affected both education and economic activities with higher education institutions being shut since mid-March. Similarly, occupancy rates in co-living accommodation units, by recent estimates, appears to have fallen by 40-50% over the duration of the lockdowns. The pandemic continues to have major impacts affecting all stakeholders including residents, asset owners, and the operators.\n<br> \n<br>It is, thus, imperative to take stock of the challenges facing all these stakeholders now with the economy being unlocked and  showcase the best practices operators can offer to tide over difficult times. In the process, it is hoped that a pathway can be created for industry to emerge from this crisis stronger along with support from Government.\n<br>\n<br>Keeping this need in mind, <b>SAPFI, in collaboration with CBRE, is organizing a virtual seminar titled “Restarting the Engine – Way Forward for Shared Accommodation”</b> to be held on <b>22nd July 2020 (Wednesday)</b>.\n<br>\n<br>The virtual seminar will bring together sectoral stakeholders to discuss challenges, evolve business continuity strategies for shared accommodation facilities (student housing and co-living), and elucidate on the required support from and the role of the Centre and State governments.<br><br>We request you to block your calendars in advance for the seminar. A quick and simple three-step guide for saving the event in your calendar is provided below:&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s500NrdGC7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "li when (@stylizedCounters)": {
+                "list-style": "none",
+                "position": "relative",
+                "&:before": {
+                  "position": "absolute",
+                  "left": "-55px",
+                  "content": "''",
+                  "display": "inline-block",
+                  "margin": "10px 15px",
+                  "line-height": "20px",
+                  "width": "10px",
+                  "height": "10px",
+                  "& when (@countersType = 'circle')": {
+                    "border": "1px solid @counterColor",
+                    "color": "@counterColor"
+                  },
+                  "& when not (@countersType = 'circle')": {
+                    "color": "contrast(@counterColor)",
+                    "background": "@counterColor"
+                  },
+                  "& when not (@countersType = 'square') and not (@countersType = 'romb')": {
+                    "border-radius": "50%"
+                  },
+                  "& when (@countersType = 'romb')": {
+                    "-webkit-transform": "rotate(45deg)",
+                    "transform": "rotate(45deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-text UL": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"content7 mbr-section\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n            <option value=\"romb\" selected>Rhombus</option>\n\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li class=\"mbr-pb-2\">Click on the Webinar icon (With .ics) in the attachment&nbsp;<br></li><li class=\"mbr-pb-2\">Click yes for the pop-up message requesting permission for adding the event in your calendar\n</li><li class=\"mbr-pb-2\">A new window will open, and you just need to click “Save &amp; Close”\n</li><li class=\"mbr-pb-2\">Please note that registration is mandatory and slots will be provided on ‘first come-first served’ basis.  \n</li><li class=\"mbr-pb-2\"><span style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">If you are having trouble viewing this email you can register <a href=\"https://urldefense.proofpoint.com/v2/url?u=https-3A__cbre.zoom.us_webinar_register_WN-5Fif1hB5s9TESkoYFV6fqikQ&d=DwMFaQ&c=jozbAXBGpZCeJmn-Q9SThA&r=vQ5oVcS2Ar4h-ofrF52pGiE01e5ySdIH-u3VpNmjrx8&m=4fS_QhTiexqwEpGYMcITjZxStJKG7ghpyJ30qkk7aqw&s=rQiu-j9kDlACfgzXShwa7IMjMbF6Yl85OiGQzsJXeds&e=\" target=\"_blank\">here</a>.</span><br></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s500VvOgrt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content7-4"
+        }
+      ]
+    }
+  }
+}
